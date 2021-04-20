@@ -2,13 +2,23 @@
 
 $("#formulario1").validate({
     rules: {
+        "txtNombre": {
+            required: true,
+            text: true
+
+        },
+        "txtApellido": {
+            required: true,
+            text: true
+
+        },
         "txtEmail": {
             required: true,
             email: true
         },
         "txtTelefono": {
             required: true,
-            max: 99999999
+            max: 999999999
         },
         "txtRepetirTelefono": {
             required: true,
@@ -27,6 +37,15 @@ $("#formulario1").validate({
         "txtRepetirTelefono": {
             required: 'Repita su telefono!!',
             equalTo: ' deben ser iguales!!!!'
+        },
+        "txtNombre": {
+            required: 'Ingrese sus nombres!!!',
+
+        },
+        "txtApellido": {
+            required: 'Ingrese sus apelllidos!!!',
+            
+
         },
         "txtFechaNacimiento": {
             required: 'Debe ingresar fecha de nacimiento!!!',

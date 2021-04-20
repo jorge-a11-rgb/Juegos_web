@@ -26,9 +26,46 @@
                 <form method="POST" id="formulario1" action="">
 
                     <div class="form-group">
+                        <label for="id_txtNombre">Nombres</label>
+                       <input type="text" name="txtNombre" class="form-control" id="id_txtNombre"
+                            placeholder="Ingrese sus nombres aqui" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="id_txtApellido">Apellidos</label>
+                       <input type="text" name="txtApellido" class="form-control" id="id_txtApellido"
+                            placeholder="Ingrese sus apellidos aqui" required="">
+                    </div>
+                    <div class="form-group">
                         <label for="id_txtEmail">Email</label>
-                        <input type="email" name="txtEmail" class="form-control" id="id_txtEmail"
+                       <input type="email" name="txtEmail" class="form-control" id="id_txtEmail"
                             aria-describedby="emailHelp" placeholder="Ingrese su email aquí">
+                    </div>
+                    <div class="from-group">
+                        <p>
+                            Seleccione su sexo
+                        </p>
+                        <select name="sexo" id="id_sexo">
+                            <option value="1">Masculino</option>
+                        <option value="2">Femenino</option>
+                        </select>
+
+                    </div>
+                    <div class="from-group">
+                       <p>
+                           Seleccione su ciudad
+                       </p> 
+                        <select name="ciudad" id="ciudad">
+                            <option value="1">Santiago</option>
+                            <option value="2">Antofagasta</option>
+                            <option value="3">Arica</option>
+                            <option value="4">Iquique</option>
+                            <option value="5">Temuco</option>
+                            <option value="6">Punta arenas</option>
+                            <option value="7">Otro</option>
+
+
+                        </select>
+
                     </div>
                     <div class="form-group">
                         <label for="id_txtTelefono">Telefono</label>

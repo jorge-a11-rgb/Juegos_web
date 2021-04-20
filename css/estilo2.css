@@ -29,3 +29,6 @@ footer{
     display: inline-block;
     text-align: center;
 }
+.from-group p{
+    color: aliceblue;
+}
